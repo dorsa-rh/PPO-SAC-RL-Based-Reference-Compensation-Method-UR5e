@@ -11,9 +11,3 @@ In this setup:
 
 The focus of this project is to simulate the UR5e robot using RL-based compensators and evaluate their performance in trajectory tracking tasks.
 
-## **2. Installation and Dependencies**
-
-To set up this project, ensure you have the following dependencies installed:
-
-```bash
-pip install torch ray numpy gym matplotlib
