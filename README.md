@@ -65,9 +65,7 @@ While the code does not include rendering, the results are visualized through pl
 - **Reward Per Episode**: Illustrates the rewards obtained for each joint throughout the steps of an episode, providing an indication of learning progress.
 ![image5](https://github.com/user-attachments/assets/e877996f-13f4-4dfb-be8d-6e9d9875c2d9)
 
-
 Additionally, a CSV file is generated, capturing detailed data for each parameter.
-![image6](https://github.com/user-attachments/assets/b2aca51e-9a1a-4ac1-8037-dbc77c160be1)
 
 
 These visual outputs demonstrate the effectiveness of RL-based compensation in reducing tracking errors compared to standard PD control methods, showcasing the improved precision and stability of the UR5e robot's movements.
