@@ -11,3 +11,5 @@ In this setup:
 
 The focus of this project is to simulate the UR5e robot using RL-based compensators and evaluate their performance in trajectory tracking tasks.
 
+The block diagram of the project is as follows:
+![Object Detection](Blockdiagram.png)
