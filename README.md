@@ -25,7 +25,7 @@ pip install torch ray numpy gym matplotlib
 ```
 
 ## **3. URDF and Mesh Files**
-The UR5e robot's URDF file is sourced from [this GitHub repository]((https://github.com/culurciello/pybullet_ur5_gripper/blob/master/robots/urdf/ur5e.urdf)](https://github.com/culurciello/pybullet_ur5_gripper/blob/master/robots/urdf/ur5e.urdf)). To ensure that the URDF can find the required mesh files (STL files), place them in the following directory within your project:
+The UR5e robot's URDF file is sourced from [this GitHub repository](https://github.com/culurciello/pybullet_ur5_gripper/blob/master/robots/urdf/ur5e.urdf). To ensure that the URDF can find the required mesh files (STL files), place them in the following directory within your project:
 
 ```bash
 /your_project_directory/ur5e/meshes/collision/
