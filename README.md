@@ -47,12 +47,28 @@ To run the simulations and evaluate the RL-based compensator's performance:
 While the code does not include rendering, the results are visualized through plots that illustrate the robot’s tracking performance in each episode. In this simulation, the robot is configured to follow a reference trajectory like a z-axis square pulse. The following plots are generated:
 
 - **Position Error Over Time**: Displays the error between the desired and actual positions in different axes, demonstrating how the RL compensator reduces deviations.
+![img1](https://github.com/user-attachments/assets/4cc686f9-7e38-4b38-b334-93d0c480d63d)
+
+
 - **End-Effector Position vs. Reference**: Shows the path followed by the end-effector compared to the target trajectory, providing insights into tracking accuracy.
+![img2](https://github.com/user-attachments/assets/c82e0d27-b424-463c-87e0-aa461b522bcc)
+
+
 - **Joint Positions in Joint-Space**: Visualizes the movement of each joint over time, highlighting the adjustments made by the RL compensator.
+![image3](https://github.com/user-attachments/assets/931b0a84-d6c9-4942-880f-104e909f4596)
+
+
 - **Joint Velocities**: Depicts the velocity of each joint, reflecting the smoothness of movements and responsiveness of the control system.
+![imgae4](https://github.com/user-attachments/assets/a36e5650-6001-42a0-a129-cb2347fdc3fb)
+
+
 - **Reward Per Episode**: Illustrates the rewards obtained for each joint throughout the steps of an episode, providing an indication of learning progress.
+![image5](https://github.com/user-attachments/assets/e877996f-13f4-4dfb-be8d-6e9d9875c2d9)
+
 
 Additionally, a CSV file is generated, capturing detailed data for each parameter.
+![image6](https://github.com/user-attachments/assets/b2aca51e-9a1a-4ac1-8037-dbc77c160be1)
+
 
 These visual outputs demonstrate the effectiveness of RL-based compensation in reducing tracking errors compared to standard PD control methods, showcasing the improved precision and stability of the UR5e robot's movements.
 
